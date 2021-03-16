@@ -18,3 +18,11 @@ const sumPairs = function (arr, sum) {
 };
 
 const problem = console.log(sumPairs(sampleArr, sampleSum));
+
+/* 
+Time complexity of this solution is O(n^2).  The nested loop is a dead give away
+that the time complexity will be large.  
+
+The space complexity of this solution is 
+O(n)
+*/
